@@ -407,7 +407,7 @@ a:hover, a:active {
 /*
 # Youtube Subscribe
 --------------------------------*/
-.yt-subscribe {
+.yout-subscribe {
     position: absolute;
     right: 15px;
     bottom: -220px;
@@ -416,12 +416,12 @@ a:hover, a:active {
     text-align: center;
 }
 
-.yt-subscribe img {
+.yout-subscribe img {
     width: 160px;
     max-width: 100%;
 }
 
-.yt-subscribe h3 {
+.yout-subscribe h3 {
     padding: 0 15px;
     margin-top: 15px;
     font-size: 36px;
@@ -429,7 +429,7 @@ a:hover, a:active {
     color: #2f2f2f;
 }
 
-.yt-subscribe p {
+.yout-subscribe p {
     padding: 0 15px;
     margin-top: 15px;
     font-size: 12px;
@@ -439,17 +439,17 @@ a:hover, a:active {
 }
 
 @media screen and (min-width: 768px){
-    .yt-subscribe {
+    .yout-subscribe {
         bottom: -250px;
     }
 
-    .yt-subscribe img {
+    .yout-subscribe img {
         width: auto;
     }
 }
 
 @media screen and (min-width: 992px){
-    .yt-subscribe {
+    .yout-subscribe {
         bottom: -200px;);
         text-align: center;
     }
