@@ -1,5 +1,5 @@
 <?php
-$name = $_Post{'name'];
+$name = $_Post['name'];
 $visitor = $_Post['email'];
 $message = $_Post['message'];
 
