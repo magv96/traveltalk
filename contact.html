@@ -154,10 +154,10 @@
 
                     <form class="contact-form">
                         <form id= "contact-form" method="post" action="contact-form-handler.php">
-                        <input type="text" placeholder="Name" required>
-                        <input type="email" placeholder="Email" required>
-                        <textarea rows="18" cols="6" placeholder="Messages"></textarea>
-                        <input type="submit" value="Submit">
+                        <input name = "name" type="text" class = "form-control" placeholder="Name" required>
+                        <input name ="email" type="email" class = "form-control" placeholder="Email" required>
+                        <textarea name="message" class="form-control" rows="18" cols="6" placeholder="Message"></textarea>
+                        <input type="submit" class="form-control-submit" value="Submit">
                     </form><!-- .contact-form -->
                 </div><!-- .content-wrap -->
             </div><!-- .col -->
